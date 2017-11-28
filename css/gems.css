@@ -1,6 +1,7 @@
 /* Select the image with a id of ruby */
 
-/*selector for ruby goes here */ {
+#ruby {
+  
   position: absolute;
   z-index: 1;
   top: 315px;
@@ -9,7 +10,7 @@
 
 /* Select the image with class of emerald */
 
-/*selector for emerald goes here */ {
+.emerald{
   position: absolute;
   z-index: 2;
   top: 350px;
@@ -18,7 +19,7 @@
 
 /* Select the image inside the element with an id of sand (using its descendent relationship) */
 
-/*selector for sapphire goes here */{
+#sand{
   position: absolute;
   z-index: 5;
   top: 315px;
